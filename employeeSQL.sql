@@ -1,9 +1,9 @@
-DROP TABLE IF EXISTS titles;
-DROP TABLE IF EXISTS departments;
-DROP TABLE IF EXISTS dept_emp;
-DROP TABLE IF EXISTS dept_manager;
-DROP TABLE IF EXISTS employees;
-DROP TABLE IF EXISTS salaries;
+DROP TABLE titles;
+DROP TABLE departments;
+DROP TABLE dept_emp;
+DROP TABLE dept_manager;
+DROP TABLE employees;
+DROP TABLE salaries;
 
 
 
@@ -43,10 +43,12 @@ CREATE TABLE employees (
 		emp_no))
 ;
 CREATE TABLE salaries (
-	emp_no INTEGER NOT NULL,
-	salary INTEGER NOT NULL
+	emp_no INTEGER,
+	salary INTEGER
 )
 ;
+
+
 
 
 SELECT * FROM titles;
@@ -55,4 +57,3 @@ SELECT * FROM dept_emp;
 SELECT * FROM dept_manager;
 SELECT * FROM employees;
 SELECT * FROM salaries;
-
