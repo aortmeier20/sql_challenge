@@ -2,8 +2,9 @@ DROP TABLE IF EXISTS titles;
 DROP TABLE IF EXISTS departments;
 DROP TABLE IF EXISTS dept_emp;
 DROP TABLE IF EXISTS dept_manager;
-DROP TABLE IF EXISTS salaries;
 DROP TABLE IF EXISTS employees;
+DROP TABLE IF EXISTS salaries;
+
 
 
 CREATE TABLE titles (
@@ -49,4 +50,9 @@ CREATE TABLE salaries (
 
 
 SELECT * FROM titles;
+SELECT * FROM departments;
+SELECT * FROM dept_emp;
+SELECT * FROM dept_manager;
+SELECT * FROM employees;
+SELECT * FROM salaries;
 
